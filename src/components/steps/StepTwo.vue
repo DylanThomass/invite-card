@@ -28,30 +28,27 @@
     <!-- 主要内容区域：两栏布局 -->
     <div class="grid grid-cols-2 gap-4 px-4">
       <!-- 左侧：轮播区域 -->
-      <div class="relative h-[280px] rounded-lg overflow-hidden">
-        <div class="absolute inset-0">
-          <!-- 轮播图片容器 -->
-          <div class="carousel-container h-full">
-            <LocationCard v-if="currentLocation" :location="currentLocation" />
-          </div>
+      <div class="flex flex-col gap-2">
+        <div class="h-full">
+          <LocationCard v-if="currentLocation" :location="currentLocation" />
         </div>
       </div>
 
       <!-- 右侧：地图区域和活动列表 -->
       <div class="flex flex-col gap-2">
-        <!-- 地图容器 - 调整高度 -->
+        <!-- 地图容器 -->
         <div class="relative h-[240px] rounded-lg overflow-hidden">
           <!-- 艺术化的地图标题 -->
           <div
             class="absolute top-3 left-3 z-10 flex items-center gap-2.5 bg-white/80 px-4 py-2 rounded-full shadow-sm backdrop-blur-sm"
           >
             <font-awesome-icon icon="paint-brush" class="text-rose-400" />
-            <font-awesome-icon icon="compass" class="text-indigo-400" />
             <span class="font-lxgw text-gray-700">艺术漫步指南</span>
           </div>
           <RouteMap
             :points="routePoints"
             :path-data="routePath"
+            :current-index="currentIndex"
             @point-click="handleRoutePointClick"
           />
         </div>
@@ -67,85 +64,99 @@
 </template>
 
 <script setup>
-import { reactive, ref } from 'vue'
+import { reactive, ref, onMounted } from 'vue'
 import RouteMap from '../map/RouteMap.vue'
 import ActivityList from '../ActivityList.vue'
 import LocationCard from '../LocationCard.vue'
 
+// 当前选中的索引
+const currentIndex = ref(0)
+
 // 当前选中的位置
 const currentLocation = ref(null)
 
-// 路线数据
 // 路线数据
 const routePoints = reactive([
   {
     x: 50,
     y: 140,
     name: '御宸上院',
-    description: '我们的旅程从这里开始',
+    description:
+      '每一段美好旅程的起点，都始于心动的瞬间。在这里，我们相遇，准备踏上诗意的漫步之旅。',
     visited: false,
     labelX: -20,
     labelY: -10,
-    activities: [{ name: '接上小可爱', icon: 'heart', description: '开启浪漫之旅' }],
+    activities: [{ name: '接上小可爱', icon: 'heart' }],
   },
   {
     x: 100,
     y: 80,
     name: '宋庄艺术小镇',
-    description: '充满艺术气息的文艺街区',
+    description:
+      '漫步在这片充满艺术气息的街区，每一个转角都可能遇见惊喜。斑驳的墙面上是艺术家们留下的印记。',
     visited: false,
     labelX: -20,
     labelY: -10,
     activities: [
-      { name: '漫步街区', icon: 'person-walking', description: '感受艺术氛围' },
-      { name: '文艺逛街', icon: 'store', description: '探索特色小店' },
+      { name: '漫步街区', icon: 'person-walking' },
+      { name: '文艺逛街', icon: 'store' },
     ],
   },
   {
     x: 150,
     y: 160,
     name: '艺术科技文创园',
+    description:
+      '在这里，传统艺术与现代科技完美融合。每一处展览都是一场跨越时空的对话，让我们一起探索艺术的魅力。',
     visited: false,
     labelX: -20,
     labelY: 20,
     activities: [
-      { name: '欣赏艺术', icon: 'palette', description: '欣赏艺术作品' },
-      { name: '打卡拍照', icon: 'camera', description: '打卡拍照' },
+      { name: '欣赏艺术', icon: 'palette' },
+      { name: '打卡拍照', icon: 'camera' },
     ],
   },
   {
     x: 200,
     y: 100,
     name: '小堡文化广场',
+    description:
+      '这里是艺术与生活的完美交汇处。品一杯香醇的咖啡，沉浸在艺术的氛围中，让灵感在此刻绽放。',
     visited: false,
     labelX: -20,
     labelY: -10,
     activities: [
-      { name: '品尝美食', icon: 'utensils', description: '品尝美食' },
-      { name: '休闲咖啡', icon: 'coffee', description: '品尝咖啡' },
-      { name: '学习Python', icon: 'code', description: '学习Python' },
+      { name: '品尝美食', icon: 'utensils' },
+      { name: '休闲咖啡', icon: 'coffee' },
+      { name: '学习Python', icon: 'code' },
     ],
   },
   {
     x: 250,
     y: 140,
     name: '树美术馆',
+    description:
+      '走进这座充满生命力的美术馆，仿佛步入一片艺术的森林。每一件展品都是一个故事，每一面墙都是一次心灵的对话。',
     visited: false,
     labelX: -20,
     labelY: 20,
     activities: [
-      { name: '观赏展览', icon: 'image', description: '观赏展览' },
-      { name: '艺术交流', icon: 'comments', description: '艺术交流' },
-      { name: '创作体验', icon: 'paint-brush', description: '创作体验' },
+      { name: '观赏展览', icon: 'image' },
+      { name: '艺术交流', icon: 'comments' },
+      { name: '创作体验', icon: 'paint-brush' },
     ],
   },
 ])
 
 // 路线路径
 const routePath = 'M 50,140 L 100,80 L 150,160 L 200,100 L 250,140'
+onMounted(() => {
+  currentLocation.value = routePoints[0]
+})
 
 // 点击处理
 const handleRoutePointClick = (index) => {
+  currentIndex.value = index
   currentLocation.value = routePoints[index]
 }
 </script>

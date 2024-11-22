@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-center gap-3 py-4">
+  <div class="flex items-center justify-center gap-4">
     <div
       v-for="(step, index) in steps"
       :key="index"
@@ -7,9 +7,11 @@
       @click="$emit('update:currentStep', index)"
     >
       <div
-        class="w-10 h-10 rounded-full overflow-hidden transition-all duration-300 border-2"
+        class="rounded-full overflow-hidden transition-all duration-300 border-2 bg-white"
         :class="[
-          index === currentStep ? 'border-blue-500 scale-110' : 'border-gray-200 opacity-60',
+          index === currentStep
+            ? 'w-14 h-14 border-blue-500 shadow-lg scale-110 z-20'
+            : 'w-12 h-12 border-gray-200 opacity-60 z-10',
         ]"
       >
         <img :src="step.image" :alt="step.title" class="w-full h-full object-cover" />
@@ -46,3 +48,9 @@ defineProps({
 
 defineEmits(['update:currentStep'])
 </script>
+
+<style scoped>
+.rounded-full {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+</style>

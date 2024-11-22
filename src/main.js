@@ -21,6 +21,7 @@ import {
   faLocationDot,
   faImage,
   faComments,
+  faQuoteLeft,
 } from '@fortawesome/free-solid-svg-icons'
 
 import App from './App.vue'
@@ -46,6 +47,7 @@ library.add(
   faLocationDot,
   faImage,
   faComments,
+  faQuoteLeft,
 )
 
 const app = createApp(App)

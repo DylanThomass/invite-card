@@ -11,16 +11,22 @@
       <el-button @click="nextStep">下一步</el-button>
     </div>
 
-    <!-- 卡片本体 -->
-    <el-card :body-style="{ padding: 0 }" class="card-container">
-      <!-- 添加步骤指示器 -->
-      <StepIndicator :current-step="currentStep" :total-steps="steps.length" />
+    <!-- 步骤指示器 - 调整位置和层级 -->
+    <div class="relative">
+      <StepIndicator
+        :current-step="currentStep"
+        :steps="steps"
+        class="absolute -top-7 left-0 right-0 z-30"
+      />
 
-      <!-- 内容区域 -->
-      <div class="content-container">
-        <component :is="steps[currentStep]"></component>
-      </div>
-    </el-card>
+      <!-- 卡片本体 - 移除固定高度 -->
+      <el-card :body-style="{ padding: 0 }" class="rounded-[24px] shadow-md">
+        <!-- 内容区域 - 移除固定高度，保留内边距 -->
+        <div class="p-6">
+          <component :is="steps[currentStep]"></component>
+        </div>
+      </el-card>
+    </div>
   </div>
 </template>
 
@@ -48,47 +54,22 @@ const prevStep = () => {
 </script>
 
 <style scoped>
-.card-container {
-  min-height: 600px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 24px;
-  overflow: hidden;
-}
-
-.content-container {
-  flex: 1;
-  padding: 2rem 1.5rem;
-  display: flex;
-  flex-direction: column;
-}
-
 :deep(.el-card) {
   @apply rounded-[24px] shadow-md;
 }
 
 :deep(.el-card__body) {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
 }
 
-/* 添加响应式样式 */
+/* 移除响应式高度样式 */
 @media (max-width: 1024px) {
-  .card-container {
-    min-height: 500px;
-  }
-
   .content-container {
     padding: 1.5rem 1rem;
   }
 }
 
 @media (max-width: 768px) {
-  .card-container {
-    min-height: 450px;
-  }
-
   .content-container {
     padding: 1rem 0.75rem;
   }
