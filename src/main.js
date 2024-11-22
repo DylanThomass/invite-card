@@ -4,15 +4,23 @@ import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import {
+  faHeart,
+  faCalendar,
+  faCar,
+  faPenFancy,
+  faPalette,
+  faPaintBrush,
+  faCompass,
+} from '@fortawesome/free-solid-svg-icons'
 
 import App from './App.vue'
 import router from './router'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 
-// 添加需要使用的图标到库中
-library.add(faLocationDot)
+// 注册所有图标
+library.add(faHeart, faCalendar, faCar, faPenFancy, faPalette, faPaintBrush, faCompass)
 
 const app = createApp(App)
 

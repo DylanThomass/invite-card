@@ -45,12 +45,13 @@
 
       <!-- 右侧：地图区域 -->
       <div class="relative h-[280px] rounded-lg overflow-hidden">
-        <!-- 添加地图标题 -->
+        <!-- 艺术化的地图标题 -->
         <div
-          class="absolute top-3 left-3 z-10 flex items-center gap-2 bg-white/80 px-3 py-1.5 rounded-full shadow-sm"
+          class="absolute top-3 left-3 z-10 flex items-center gap-2.5 bg-white/80 px-4 py-2 rounded-full shadow-sm backdrop-blur-sm"
         >
-          <font-awesome-icon icon="map-location-dot" class="text-emerald-500" />
-          <span class="font-lxgw text-gray-700">艺术区导览图</span>
+          <font-awesome-icon icon="paint-brush" class="text-rose-400" />
+          <font-awesome-icon icon="compass" class="text-indigo-400" />
+          <span class="font-lxgw text-gray-700">艺术漫步指南</span>
         </div>
         <RouteMap
           :points="routePoints"
