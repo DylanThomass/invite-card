@@ -28,35 +28,38 @@
     <!-- 主要内容区域：两栏布局 -->
     <div class="grid grid-cols-2 gap-4 px-4">
       <!-- 左侧：轮播区域 -->
-      <div class="relative h-[280px] rounded-lg bg-gray-50/50 overflow-hidden">
-        <!-- 轮播组件将在这里实现 -->
+      <div class="relative h-[280px] rounded-lg overflow-hidden">
         <div class="absolute inset-0">
           <!-- 轮播图片容器 -->
-          <div class="carousel-container">
-            <!-- 轮播内容将在这里动态生成 -->
-          </div>
-
-          <!-- 轮播控制器 -->
-          <div class="absolute bottom-3 left-0 right-0 flex justify-center gap-2">
-            <!-- 轮播指示器将在这里生成 -->
+          <div class="carousel-container h-full">
+            <LocationCard v-if="currentLocation" :location="currentLocation" />
           </div>
         </div>
       </div>
 
-      <!-- 右侧：地图区域 -->
-      <div class="relative h-[280px] rounded-lg overflow-hidden">
-        <!-- 艺术化的地图标题 -->
-        <div
-          class="absolute top-3 left-3 z-10 flex items-center gap-2.5 bg-white/80 px-4 py-2 rounded-full shadow-sm backdrop-blur-sm"
-        >
-          <font-awesome-icon icon="paint-brush" class="text-rose-400" />
-          <font-awesome-icon icon="compass" class="text-indigo-400" />
-          <span class="font-lxgw text-gray-700">艺术漫步指南</span>
+      <!-- 右侧：地图区域和活动列表 -->
+      <div class="flex flex-col gap-2">
+        <!-- 地图容器 - 调整高度 -->
+        <div class="relative h-[240px] rounded-lg overflow-hidden">
+          <!-- 艺术化的地图标题 -->
+          <div
+            class="absolute top-3 left-3 z-10 flex items-center gap-2.5 bg-white/80 px-4 py-2 rounded-full shadow-sm backdrop-blur-sm"
+          >
+            <font-awesome-icon icon="paint-brush" class="text-rose-400" />
+            <font-awesome-icon icon="compass" class="text-indigo-400" />
+            <span class="font-lxgw text-gray-700">艺术漫步指南</span>
+          </div>
+          <RouteMap
+            :points="routePoints"
+            :path-data="routePath"
+            @point-click="handleRoutePointClick"
+          />
         </div>
-        <RouteMap
-          :points="routePoints"
-          :path-data="routePath"
-          @point-click="handleRoutePointClick"
+
+        <!-- 活动列表组件 -->
+        <ActivityList
+          :location-name="currentLocation?.name"
+          :activities="currentLocation?.activities || []"
         />
       </div>
     </div>
@@ -64,26 +67,39 @@
 </template>
 
 <script setup>
-import { reactive } from 'vue'
+import { reactive, ref } from 'vue'
 import RouteMap from '../map/RouteMap.vue'
+import ActivityList from '../ActivityList.vue'
+import LocationCard from '../LocationCard.vue'
 
+// 当前选中的位置
+const currentLocation = ref(null)
+
+// 路线数据
 // 路线数据
 const routePoints = reactive([
   {
     x: 50,
     y: 140,
     name: '御宸上院',
+    description: '我们的旅程从这里开始',
     visited: false,
     labelX: -20,
     labelY: -10,
+    activities: [{ name: '接上小可爱', icon: 'heart', description: '开启浪漫之旅' }],
   },
   {
     x: 100,
     y: 80,
     name: '宋庄艺术小镇',
+    description: '充满艺术气息的文艺街区',
     visited: false,
     labelX: -20,
     labelY: -10,
+    activities: [
+      { name: '漫步街区', icon: 'person-walking', description: '感受艺术氛围' },
+      { name: '文艺逛街', icon: 'store', description: '探索特色小店' },
+    ],
   },
   {
     x: 150,
@@ -92,6 +108,10 @@ const routePoints = reactive([
     visited: false,
     labelX: -20,
     labelY: 20,
+    activities: [
+      { name: '欣赏艺术', icon: 'palette', description: '欣赏艺术作品' },
+      { name: '打卡拍照', icon: 'camera', description: '打卡拍照' },
+    ],
   },
   {
     x: 200,
@@ -100,6 +120,11 @@ const routePoints = reactive([
     visited: false,
     labelX: -20,
     labelY: -10,
+    activities: [
+      { name: '品尝美食', icon: 'utensils', description: '品尝美食' },
+      { name: '休闲咖啡', icon: 'coffee', description: '品尝咖啡' },
+      { name: '学习Python', icon: 'code', description: '学习Python' },
+    ],
   },
   {
     x: 250,
@@ -108,6 +133,11 @@ const routePoints = reactive([
     visited: false,
     labelX: -20,
     labelY: 20,
+    activities: [
+      { name: '观赏展览', icon: 'image', description: '观赏展览' },
+      { name: '艺术交流', icon: 'comments', description: '艺术交流' },
+      { name: '创作体验', icon: 'paint-brush', description: '创作体验' },
+    ],
   },
 ])
 
@@ -116,8 +146,7 @@ const routePath = 'M 50,140 L 100,80 L 150,160 L 200,100 L 250,140'
 
 // 点击处理
 const handleRoutePointClick = (index) => {
-  // 处理点击事件
-  console.log('点击了路线点:', index)
+  currentLocation.value = routePoints[index]
 }
 </script>
 

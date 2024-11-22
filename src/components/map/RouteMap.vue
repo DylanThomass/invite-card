@@ -1,6 +1,6 @@
 <template>
-  <div class="relative h-full w-full">
-    <svg class="w-full h-full" viewBox="0 0 300 200">
+  <div class="relative w-full h-full">
+    <svg class="w-full h-full" viewBox="0 0 300 200" preserveAspectRatio="xMidYMid meet">
       <!-- 添加3D效果的底层阴影路径 -->
       <path
         :d="generatePath(points)"
@@ -115,7 +115,6 @@ onMounted(() => {
     pathOffset.value = totalLength // 初始状态完全隐藏
 
     // 计算每个点对应的路径长度
-    let accumulatedLength = 0
     pathSegmentLengths.value = props.points.map((_, index) => {
       if (index === 0) return 0
 
