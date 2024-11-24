@@ -24,6 +24,7 @@ import {
   faQuoteLeft,
   faChevronLeft,
   faChevronRight,
+  faUsers,
 } from '@fortawesome/free-solid-svg-icons'
 
 import App from './App.vue'
@@ -52,6 +53,7 @@ library.add(
   faQuoteLeft,
   faChevronLeft,
   faChevronRight,
+  faUsers,
 )
 
 const app = createApp(App)

@@ -1,6 +1,6 @@
 <template>
   <div v-if="activities.length">
-    <div class="bg-white/90 rounded-lg p-4 backdrop-blur-sm">
+    <div class="rounded-lg p-4">
       <div class="flex items-center gap-2 mb-3">
         <font-awesome-icon icon="location-dot" class="text-rose-400" />
         <span class="font-lxgw text-gray-700">{{ locationName }}</span>

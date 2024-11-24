@@ -1,13 +1,20 @@
 <template>
-  <div class="flex flex-col items-center">
-    <!-- 主标题区域 -->
-    <div class="text-center mb-2">
-      <div class="flex items-center justify-center gap-3">
-        <font-awesome-icon icon="heart" class="text-rose-400/80 text-xl" />
-        <h1 class="text-2xl font-bold mb-1">浪漫冒险邀请函</h1>
-        <font-awesome-icon icon="heart" class="text-rose-400/80 text-xl" />
+  <div class="flex flex-col items-center relative">
+    <!-- 添加摩托车背景 SVG -->
+    <div class="absolute bottom-0 left-0 opacity-10">
+      <img :src="motorCycleSvg" alt="Motor Cycle" class="w-48 h-48" />
+    </div>
+
+    <div class="flex items-center gap-4 mb-4">
+      <img :src="bicycleSvg" alt="Bicycle" class="w-16 h-16" />
+      <div class="text-center">
+        <div class="flex items-center justify-center gap-3">
+          <font-awesome-icon icon="heart" class="text-rose-400/80 text-xl" />
+          <h1 class="text-2xl font-bold mb-1">浪漫冒险邀请函</h1>
+          <font-awesome-icon icon="heart" class="text-rose-400/80 text-xl" />
+        </div>
+        <div class="text-sm text-gray-500">Romantic Adventure Invitation</div>
       </div>
-      <div class="text-sm text-gray-500">Romantic Adventure Invitation</div>
     </div>
 
     <!-- 分割线 1 - 调整为与标题文字相近的宽度 -->
@@ -98,6 +105,8 @@
 import { ref, onMounted } from 'vue'
 import NumberWheel from '../NumberWheel.vue'
 import CarModel from '../CarModel.vue'
+import bicycleSvg from '@/assets/svg/bicycle.svg?url'
+import motorCycleSvg from '@/assets/svg/motorCiycle.svg?url'
 
 // 如果需要动画效果，可以使用 ref 控制数值的变化
 const year = ref(2020)

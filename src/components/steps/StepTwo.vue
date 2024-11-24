@@ -1,5 +1,15 @@
 <template>
-  <div>
+  <div class="relative">
+    <!-- 添加绘画背景 SVG - 左上角 (添加 -scale-x-100 实现水平翻转) -->
+    <div class="absolute top-0 left-0">
+      <img :src="drawSvg" alt="Draw" class="w-48 h-48 -scale-x-100" />
+    </div>
+
+    <!-- 添加爵士背景 SVG - 右下角 -->
+    <div class="absolute bottom-0 right-0 opacity-30">
+      <img :src="jazzSvg" alt="Jazz" class="w-48 h-48" />
+    </div>
+
     <!-- 标题区域 -->
     <div class="text-center mb-6">
       <!-- 主标题 -->
@@ -26,7 +36,7 @@
     ></div>
 
     <!-- 主要内容区域：两栏布局 -->
-    <div class="grid grid-cols-2 gap-4 px-4">
+    <div class="grid grid-cols-2 gap-4 px-4 relative">
       <!-- 左侧：轮播区域 -->
       <div class="flex flex-col gap-2">
         <div class="h-full">
@@ -68,6 +78,8 @@ import { reactive, ref, onMounted } from 'vue'
 import RouteMap from '../map/RouteMap.vue'
 import ActivityList from '../ActivityList.vue'
 import LocationCard from '../LocationCard.vue'
+import jazzSvg from '@/assets/svg/jazz.svg?url'
+import drawSvg from '@/assets/svg/draw.svg?url'
 
 // 当前选中的索引
 const currentIndex = ref(0)
