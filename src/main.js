@@ -76,9 +76,9 @@ library.add(
 
 const app = createApp(App)
 
+app.use(ElementPlus)
 app.use(createPinia())
 app.use(router)
-app.use(ElementPlus)
 
 // 注册全局组件
 app.component('font-awesome-icon', FontAwesomeIcon)

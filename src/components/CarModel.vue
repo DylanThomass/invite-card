@@ -9,6 +9,7 @@ import { ref, onMounted, onBeforeUnmount } from 'vue'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
+import carModel from '@/assets/model/my-car.glb'
 
 // 基础变量
 const container = ref(null)
@@ -20,7 +21,7 @@ const loadModel = () => {
   const loader = new GLTFLoader()
 
   loader.load(
-    '/src/assets/model/my-car.glb', // 确保路径正确
+    carModel, // 直接使用导入的模型路径
     (gltf) => {
       car = gltf.scene
       // 继续增大模型尺寸

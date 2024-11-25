@@ -1,7 +1,28 @@
 <template>
   <div class="relative w-[90%] max-w-[780px] mx-auto">
-    <!-- 导航按钮 - 简化动画 -->
-    <div class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16" v-if="currentStep > 0">
+    <!-- 左侧礼花 - 进一步向外移动 -->
+    <div
+      class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-64 w-96 h-[1000px] z-[100] pointer-events-none"
+    >
+      <div class="relative w-full h-full">
+        <ConfettiEffect :active="store.showConfetti" position="left" class="absolute inset-0" />
+      </div>
+    </div>
+
+    <!-- 右侧礼花 - 进一步向外移动 -->
+    <div
+      class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-64 w-96 h-[1000px] z-[100] pointer-events-none"
+    >
+      <div class="relative w-full h-full">
+        <ConfettiEffect :active="store.showConfetti" position="right" class="absolute inset-0" />
+      </div>
+    </div>
+
+    <!-- 导航按钮 - 调整 z-index -->
+    <div
+      class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 z-[90]"
+      v-if="store.currentStep > 0"
+    >
       <button
         @click="prevStep"
         class="w-12 h-12 rounded-full bg-white shadow-md flex items-center justify-center group transition-all duration-500 ease-out hover:shadow-lg hover:scale-110 active:scale-95"
@@ -19,8 +40,8 @@
     </div>
 
     <div
-      class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-16"
-      v-if="currentStep < steps.length - 1"
+      class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 z-[90]"
+      v-if="store.currentStep < steps.length - 1"
     >
       <button
         @click="nextStep"
@@ -40,17 +61,23 @@
 
     <div class="relative">
       <!-- 步骤指示器 -->
-      <StepIndicator :current-step="currentStep" class="absolute -top-7 left-0 right-0 z-30" />
+      <StepIndicator
+        :current-step="store.currentStep"
+        class="absolute -top-7 left-0 right-0 z-30"
+      />
 
       <!-- 卡片本体 -->
-      <el-card :body-style="{ padding: 0 }" class="rounded-[24px] shadow-md overflow-hidden">
+      <el-card
+        :body-style="{ padding: 0 }"
+        class="rounded-[24px] shadow-md overflow-hidden relative"
+      >
         <div class="p-6 relative">
           <transition
             mode="out-in"
             :name="animationDirection === 'next' ? 'slide-next' : 'slide-prev'"
           >
-            <div :key="currentStep">
-              <component :is="steps[currentStep]"></component>
+            <div :key="store.currentStep">
+              <component :is="steps[store.currentStep]"></component>
             </div>
           </transition>
         </div>
@@ -61,30 +88,28 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useInviteStore } from '@/stores/inviteStore'
 import StepOne from './steps/StepOne.vue'
 import StepTwo from './steps/StepTwo.vue'
 import StepThree from './steps/StepThree.vue'
 import StepIndicator from './StepIndicator.vue'
+import ConfettiEffect from './ConfettiEffect.vue'
 
-const currentStep = ref(0)
+const store = useInviteStore()
 const steps = [StepOne, StepTwo, StepThree]
 const animationDirection = ref('next')
 
-const emit = defineEmits(['step-change'])
-
 const nextStep = () => {
-  if (currentStep.value < steps.length - 1) {
+  if (store.currentStep < steps.length - 1) {
     animationDirection.value = 'next'
-    currentStep.value++
-    emit('step-change', currentStep.value)
+    store.setCurrentStep(store.currentStep + 1)
   }
 }
 
 const prevStep = () => {
-  if (currentStep.value > 0) {
+  if (store.currentStep > 0) {
     animationDirection.value = 'prev'
-    currentStep.value--
-    emit('step-change', currentStep.value)
+    store.setCurrentStep(store.currentStep - 1)
   }
 }
 </script>

@@ -178,6 +178,9 @@ import { onMounted } from 'vue'
 import { animate, stagger } from 'motion'
 import SlideToConfirm from '../SlideToConfirm.vue'
 import happySvg from '@/assets/svg/happy.svg?url'
+import { useInviteStore } from '@/stores/inviteStore'
+
+const store = useInviteStore()
 
 // 添加动画函数
 const animatePageLoad = () => {
@@ -268,7 +271,7 @@ const animatePageLoad = () => {
 
 const handleConfirm = () => {
   console.log('邀请已接受')
-  // 处理确认逻辑
+  store.triggerConfetti()
 }
 
 onMounted(() => {

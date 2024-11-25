@@ -10,7 +10,7 @@
       <div class="text-center">
         <div class="flex items-center justify-center gap-3">
           <font-awesome-icon icon="heart" class="text-rose-400/80 text-xl" />
-          <h1 class="text-2xl font-bold mb-1">浪漫冒险邀请函</h1>
+          <h1 class="text-2xl font-bold mb-1">浪漫冒险邀请</h1>
           <font-awesome-icon icon="heart" class="text-rose-400/80 text-xl" />
         </div>
         <div class="text-sm text-gray-500">Romantic Adventure Invitation</div>
@@ -88,7 +88,7 @@
     <!-- 尾缀部分 -->
     <div class="flex items-center justify-center gap-2">
       <font-awesome-icon icon="pen-fancy" class="text-amber-400/80" />
-      <div class="text-gray-500 text-sm">Invited & Made by Dylan</div>
+      <div class="text-gray-500 text-sm">Designed & Created by Dylan</div>
       <!-- 头像更新 -->
       <div class="w-8 h-8 rounded-full bg-gray-200 overflow-hidden">
         <img

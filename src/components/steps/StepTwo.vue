@@ -85,7 +85,7 @@
     <!-- 添加尾缀部分 -->
     <div class="flex items-center justify-center gap-2">
       <font-awesome-icon icon="pen-fancy" class="text-amber-400/80" />
-      <div class="text-gray-500 text-sm">Invited & Made by Dylan</div>
+      <div class="text-gray-500 text-sm">Designed & Created by Dylan</div>
       <div class="w-8 h-8 rounded-full bg-gray-200 overflow-hidden">
         <img
           src="@/assets/images/avatar-1.jpg"

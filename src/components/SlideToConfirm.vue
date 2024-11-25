@@ -50,7 +50,7 @@
         </div>
         <div class="flex-1 text-sm text-gray-600 font-lxgw whitespace-nowrap">
           <div class="flex items-center gap-2">
-            <span class="text-rose-400">Meng Baby</span>
+            <span class="text-rose-400">MengMeng Baby</span>
             <span>has accepted</span>
             <span class="text-indigo-400">Mr. Dylan's</span>
             <span>invitation</span>
@@ -70,7 +70,9 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import { useInviteStore } from '@/stores/inviteStore'
 
+const store = useInviteStore()
 const position = ref(0)
 const sliding = ref(false)
 const startX = ref(0)
@@ -108,8 +110,13 @@ const moveSlide = (e) => {
   position.value = Math.max(0, Math.min(maxPosition.value, position.value + diff))
   startX.value = currentX
 
-  if (position.value >= maxPosition.value * 0.95) {
+  // 更精确的进度计算
+  const progress = Math.min(1, position.value / maxPosition.value)
+  store.setSlideProgress(progress)
+
+  if (progress >= 0.95) {
     position.value = maxPosition.value
+    store.setSlideProgress(1)
     handleConfirm()
     endSlide()
   }
@@ -125,10 +132,14 @@ const endSlide = () => {
   if (position.value < maxPosition.value * 0.95) {
     const animate = () => {
       position.value = Math.max(0, position.value * 0.8)
+      const progress = Math.min(1, position.value / maxPosition.value)
+      store.setSlideProgress(progress)
+
       if (position.value > 0.5) {
         requestAnimationFrame(animate)
       } else {
         position.value = 0
+        store.setSlideProgress(0)
       }
     }
     requestAnimationFrame(animate)
@@ -164,6 +175,7 @@ const handleConfirm = async () => {
     // 等待确认状态动画完成
     await new Promise((resolve) => setTimeout(resolve, 400))
 
+    // 触发确认事件
     emit('confirm')
   } catch (error) {
     console.error('Animation error:', error)
