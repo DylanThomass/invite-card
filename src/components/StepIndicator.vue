@@ -21,6 +21,11 @@
 </template>
 
 <script setup>
+// 导入 SVG 图标
+import indicator1 from '@/assets/svg/indicator-1.svg?url'
+import indicator2 from '@/assets/svg/indicator-2.svg?url'
+import indicator3 from '@/assets/svg/indicator-3.svg?url'
+
 defineProps({
   currentStep: {
     type: Number,
@@ -32,15 +37,15 @@ defineProps({
     default: () => [
       {
         title: '基础信息',
-        image: '/images/step1.png',
+        image: indicator1,
       },
       {
         title: '活动详情',
-        image: '/images/step2.png',
+        image: indicator2,
       },
       {
         title: '确认信息',
-        image: '/images/step3.png',
+        image: indicator3,
       },
     ],
   },

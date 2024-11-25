@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col items-center relative">
+  <div class="flex flex-col mt-8 items-center relative">
     <!-- 添加摩托车背景 SVG -->
-    <div class="absolute bottom-0 left-0 opacity-10">
+    <div class="absolute bottom-0 left-0 opacity-10 background-svg">
       <img :src="motorCycleSvg" alt="Motor Cycle" class="w-48 h-48" />
     </div>
 
@@ -18,7 +18,7 @@
     </div>
 
     <!-- 分割线 1 - 调整为与标题文字相近的宽度 -->
-    <div class="w-[280px] h-[1px] bg-gray-200 my-2"></div>
+    <div class="w-[280px] divider my-2"></div>
 
     <!-- 副标题 -->
     <div class="text-gray-600 text-lg mb-4 font-lxgw">
@@ -32,7 +32,7 @@
     <!-- 信息区域：使用grid布局实现左右排列 -->
     <div class="grid grid-cols-2 gap-8 mb-8">
       <!-- 日期时间 -->
-      <div class="flex flex-col h-full">
+      <div class="flex flex-col h-full date-content">
         <!-- 日期滚动组件容器 -->
         <div class="h-[180px] mb-3 flex items-center justify-end">
           <div class="flex items-center">
@@ -66,7 +66,7 @@
       </div>
 
       <!-- 出行方式区域 -->
-      <div class="flex flex-col h-full">
+      <div class="flex flex-col h-full transport-content">
         <!-- 3D模型容器 -->
         <div class="h-[180px] mb-3">
           <CarModel />
@@ -107,14 +107,70 @@ import NumberWheel from '../NumberWheel.vue'
 import CarModel from '../CarModel.vue'
 import bicycleSvg from '@/assets/svg/bicycle.svg?url'
 import motorCycleSvg from '@/assets/svg/motorCiycle.svg?url'
+import { animate, stagger } from 'motion'
 
 // 如果需要动画效果，可以使用 ref 控制数值的变化
 const year = ref(2020)
 const month = ref(1)
 const day = ref(1)
 
-// 在组件挂载后启动动画
+// 添加动画函数
+const animatePageLoad = () => {
+  // 获取需要添加动画的元素
+  const titleGroup = document.querySelector('.title-group')
+  const contentLeft = document.querySelector('.date-content')
+  const contentRight = document.querySelector('.transport-content')
+  const backgroundSvg = document.querySelector('.background-svg')
+
+  // 标题组动画
+  if (titleGroup) {
+    animate(
+      titleGroup,
+      {
+        opacity: [0, 1],
+        y: [-20, 0],
+      },
+      {
+        duration: 0.8,
+        easing: 'ease-out',
+      },
+    )
+  }
+
+  // 左右内容区域动画
+  if (contentLeft && contentRight) {
+    animate(
+      [contentLeft, contentRight],
+      {
+        opacity: [0, 1],
+        x: [-30, 0],
+      },
+      {
+        duration: 0.8,
+        delay: stagger(0.2),
+        easing: 'ease-out',
+      },
+    )
+  }
+
+  // 背景SVG动画
+  if (backgroundSvg) {
+    animate(
+      backgroundSvg,
+      {
+        opacity: [0, 0.1],
+        scale: [0.8, 1],
+      },
+      {
+        duration: 1,
+      },
+    )
+  }
+}
+
 onMounted(() => {
+  animatePageLoad()
+  // 在组件挂载后启动动画
   setTimeout(() => {
     year.value = 2024
     setTimeout(() => {
@@ -129,8 +185,9 @@ onMounted(() => {
 
 <style scoped>
 /* 可以添加分割线的渐变效果 */
-.h-[1px] {
+.divider {
   background: linear-gradient(to right, transparent, #e5e7eb 50%, transparent);
+  height: 1px;
 }
 
 /* 添加数字动画相关样式 */
@@ -143,5 +200,14 @@ onMounted(() => {
 /* 添加字体样式 */
 .font-lxgw {
   font-family: 'LXGW Bright Medium';
+}
+
+/* 添加过渡样式 */
+.date-content,
+.transport-content {
+  will-change: transform, opacity;
+  transform-origin: center center;
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
 </style>

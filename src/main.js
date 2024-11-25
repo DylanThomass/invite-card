@@ -25,6 +25,15 @@ import {
   faChevronLeft,
   faChevronRight,
   faUsers,
+  faEnvelopeOpenText,
+  faWandMagicSparkles,
+  faMapMarkedAlt,
+  faClockRotateLeft,
+  faCloudSun,
+  faMountainSun,
+  faClipboardList,
+  faCarSide,
+  faFeather,
 } from '@fortawesome/free-solid-svg-icons'
 
 import App from './App.vue'
@@ -54,6 +63,15 @@ library.add(
   faChevronLeft,
   faChevronRight,
   faUsers,
+  faEnvelopeOpenText,
+  faWandMagicSparkles,
+  faMapMarkedAlt,
+  faClockRotateLeft,
+  faCloudSun,
+  faMountainSun,
+  faClipboardList,
+  faCarSide,
+  faFeather,
 )
 
 const app = createApp(App)

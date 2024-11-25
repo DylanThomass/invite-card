@@ -1,0 +1,255 @@
+<svg viewBox="0 0 1024 1024" height="1024" width="1024" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clip-path">
+      <ellipse stroke-width="1" stroke="#707070" fill="none" transform="matrix(0.998, 0.07, -0.07, 0.998, 7197.207, 4885.718)" ry="141.5" rx="138" cy="141.5" cx="138" id="椭圆_110"></ellipse>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path stroke-width="1" stroke="#707070" fill="none" transform="translate(0 0)" d="M64.346,0h46.649l-1.63,31.84-3.405,2.223H.663S-2.448,26.657,4.809,23.7,64.346,0,64.346,0Z" id="路径_464"></path>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path stroke-width="1" stroke="#707070" fill="none" transform="translate(-8031.982 -4726.727)" d="M8096.328,4726.727h46.648l-1.63,31.84-3.405,2.223h-105.3s-3.111-7.406,4.146-10.368S8096.328,4726.727,8096.328,4726.727Z" id="路径_464-2"></path>
+    </clipPath>
+    <clipPath id="clip-运动">
+      <rect height="1024" width="1024"></rect>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip-运动)" id="运动">
+    <rect fill="#b5dbda" height="1024" width="1024"></rect>
+    <ellipse fill="#78cac6" transform="translate(-59 742)" ry="211" rx="590.5" cy="211" cx="590.5" id="椭圆_113"></ellipse>
+    <g transform="translate(748.82 868.533)" id="组_165">
+      <g id="组_162">
+        <ellipse fill="#14323e" transform="matrix(0.995, 0.105, -0.105, 0.995, 22.764, 0)" ry="108.89" rx="68.621" cy="108.89" cx="68.621" id="椭圆_103"></ellipse>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-8906.894 -5243.82)" d="M8986.521,5252.228l-13.738,213.858" id="路径_454"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-8909.122 -5247.58)" d="M8985.286,5309.934l40.46-36.607" id="路径_455"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-8902.159 -5252.872)" d="M8974.918,5337.06l-28.705-34.038" id="路径_456"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-8908.383 -5258.72)" d="M8981.142,5370.524l51.572-34.68" id="路径_457"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-8898.399 -5262.201)" d="M8971.158,5392.629l-46.045-37.248" id="路径_458"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-8908.383 -5269.303)" d="M8981.142,5433.126l54.142-37.891" id="路径_459"></path>
+      </g>
+      <g transform="translate(124.042 40.531)" id="组_163">
+        <path fill="#14323e" transform="matrix(0.995, 0.105, -0.105, 0.995, 16.707, 0)" d="M55.435,0C85.644-.253,109.806,35.32,109.4,79.455s-25.221,80.121-55.43,80.376S-.4,124.513,0,80.377,25.226.256,55.435,0Z" id="路径_460"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-8920.986 -5245.526)" d="M8983.744,5252.228l-10.961,156.8" id="路径_454-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-8925.293 -5253.912)" d="M8985.287,5300.167l32.278-26.841" id="路径_455-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-8911.837 -5265.715)" d="M8969.114,5327.979l-22.9-24.957" id="路径_456-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-8923.865 -5278.76)" d="M8981.143,5361.271l41.145-25.427" id="路径_457-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-8904.571 -5286.525)" d="M8961.85,5382.691l-36.736-27.31" id="路径_458-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-8923.865 -5302.365)" d="M8981.143,5423.017l43.2-27.781" id="路径_459-2"></path>
+      </g>
+      <g transform="matrix(0.946, 0.326, -0.326, 0.946, 241.975, 72.235)" id="组_164">
+        <path fill="#14323e" transform="matrix(0.995, 0.105, -0.105, 0.995, 10.05, 0)" d="M33.345,0c18.171-.153,32.7,21.244,32.462,47.792S50.636,95.987,32.465,96.14-.24,74.9,0,48.348,15.174.154,33.345,0Z" id="路径_460-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(31.156 4.031)" d="M6.592,0,0,94.317" id="路径_454-3"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(36.087 11.678)" d="M0,16.144,19.416,0" id="路径_455-3"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(20.678 22.441)" d="M13.776,15.011,0,0" id="路径_456-3"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(34.453 34.337)" d="M0,15.294,24.75,0" id="路径_457-3"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(12.356 41.418)" d="M22.1,16.427,0,0" id="路径_458-3"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(34.453 55.862)" d="M0,16.71,25.982,0" id="路径_459-3"></path>
+      </g>
+    </g>
+    <g transform="translate(-25.831 704.279)" id="组_183">
+      <g transform="translate(-0.169 67.409)" id="组_182">
+        <path fill="#122e3e" transform="translate(159.856 235.758) rotate(180)" d="M0,58.566A58.681,58.681,0,0,0,48.608,116.24a67.222,67.222,0,0,0-24.592,52c0,37.29,30.409,67.52,67.919,67.52s67.92-30.229,67.92-67.52A67.674,67.674,0,0,0,99.39,101.122,58.5,58.5,0,0,0,58.914,0,58.741,58.741,0,0,0,0,58.566Z" id="联合_19"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-9947.604 -5066.936)" d="M10075.9,5341.989l-77.559-271.452" id="路径_503"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-9971.43 -5075.688)" d="M10065.568,5105.6l-21.7,47.088" id="路径_504"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-10050.379 -5079.22)" d="M10118.529,5143.3l-40.029-23.544" id="路径_505"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-9931.59 -5092.425)" d="M10044.192,5172.661l-24.929,54.013" id="路径_506"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-10040.361 -5091.966)" d="M10121.573,5204.055l-60.478-33.239" id="路径_507"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-9983.435 -5114.384)" d="M10077.572,5276.793l-33.7-16.157" id="路径_508"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-9895.899 -5114.384)" d="M10024.2,5260.636l-25.854,32.777" id="路径_509"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-9863.596 -5125.287)" d="M10008.514,5304.315c-1.385,0-32.315,39.24-32.315,39.24" id="路径_510"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(-9963.438 -5128.204)" d="M10071.89,5332.625,10024.8,5316" id="路径_511"></path>
+      </g>
+      <g transform="translate(86.084 -0.443)" id="组_181">
+        <path fill="#0e4e42" transform="translate(0)" d="M0,224.731a74.269,74.269,0,0,1,61.2-73.147,85.485,85.485,0,1,1,63.934,19.174A74.228,74.228,0,1,1,0,224.731Z" id="联合_19-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#07332b" fill="none" transform="translate(-9958.377 -5064.794)" d="M9998.346,5412.426l97.682-341.889" id="路径_503-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#07332b" fill="none" transform="translate(-9960.876 -5066.718)" d="M10043.871,5105.6l27.328,59.308" id="路径_504-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#07332b" fill="none" transform="translate(-9962.776 -5067.495)" d="M10078.5,5149.407l50.418-29.654" id="路径_505-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#07332b" fill="none" transform="translate(-9959.525 -5070.399)" d="M10019.264,5172.661l31.4,68.029" id="路径_506-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#07332b" fill="none" transform="translate(-9961.82 -5070.298)" d="M10061.1,5212.68l76.169-41.864" id="路径_507-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#07332b" fill="none" transform="translate(-9960.876 -5075.227)" d="M10043.871,5280.986l42.445-20.351" id="路径_508-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#07332b" fill="none" transform="translate(-9958.377 -5075.227)" d="M9998.346,5260.636l32.561,41.283" id="路径_509-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#07332b" fill="none" transform="translate(-9957.161 -5077.625)" d="M9976.2,5304.315c1.743,0,40.7,49.422,40.7,49.422" id="路径_510-2"></path>
+        <path stroke-width="4" stroke-linecap="round" stroke="#07332b" fill="none" transform="translate(-9959.828 -5078.266)" d="M10024.8,5336.937l59.309-20.932" id="路径_511-2"></path>
+      </g>
+    </g>
+    <g transform="translate(-9094.635 -4590)" id="组_158">
+      <g transform="translate(174 68.625)" id="组_156">
+        <path fill="#fff" transform="translate(9110 4690)" d="M129.169,86.5H14A13.5,13.5,0,0,1,.5,73V14A13.5,13.5,0,0,1,14,.5H177A13.5,13.5,0,0,1,190.5,14V73A13.5,13.5,0,0,1,177,86.5H153.59l-5.634,21.792Z" id="联合_15"></path>
+        <rect fill="#9ce3e2" transform="translate(9119 4703)" height="9" width="170" id="矩形_116"></rect>
+        <rect fill="#9ce3e2" transform="translate(9119 4722)" height="9" width="170" id="矩形_117"></rect>
+        <rect fill="#9ce3e2" transform="translate(9119 4741)" height="9" width="170" id="矩形_118"></rect>
+        <rect fill="#9ce3e2" transform="translate(9220 4760)" height="9" width="69" id="矩形_119"></rect>
+      </g>
+      <path stroke-width="4" stroke="#fff" fill="none" transform="translate(178.888 49.483)" d="M9469.477,4719.242h175.612s-13.266-58.116-82.121-18.951c.632,0-13.265-31.584-48.009-26.531S9464.537,4705.9,9469.477,4719.242Z" id="路径_418"></path>
+      <path fill="#fff" transform="translate(143.375 67)" d="M9469.318,4711.039h144.316s-10.9-47.759-67.486-15.574c.52,0-10.9-25.956-39.453-21.8S9465.259,4700.079,9469.318,4711.039Z" id="路径_417"></path>
+      <path fill="#fff" transform="translate(577.524 22)" d="M9469.318,4711.039h144.316s-10.9-47.759-67.486-15.574c.52,0-10.9-25.956-39.453-21.8S9465.259,4700.079,9469.318,4711.039Z" id="路径_419"></path>
+      <path fill="#fff" transform="translate(-314.488 402.63)" d="M9469.031,4710.409h87.807s-6.632-46.964-41.06-15.314c.315,0-6.634-25.523-24.006-21.44S9466.563,4699.631,9469.031,4710.409Z" id="路径_420"></path>
+      <path fill="#fff" transform="translate(-418.078 -63.715)" d="M9469.031,4710.409h87.807s-6.632-46.964-41.06-15.314c.315,0-6.634-25.523-24.006-21.44S9466.563,4699.631,9469.031,4710.409Z" id="路径_512"></path>
+      <g transform="translate(-16 -51)" id="组_157">
+        <path fill="#fff" transform="translate(9839.977 4921)" d="M45.023,75.5A11.5,11.5,0,0,1,33.523,64V46.464L0,41,33.523,28.994V12A11.5,11.5,0,0,1,45.023.5h132a11.5,11.5,0,0,1,11.5,11.5V64a11.5,11.5,0,0,1-11.5,11.5Z" id="联合_16"></path>
+        <circle fill="#fad161" transform="translate(9905 4951)" r="11" cy="11" cx="11" id="椭圆_97"></circle>
+        <circle fill="#fad161" transform="translate(9940 4951)" r="11" cy="11" cx="11" id="椭圆_98"></circle>
+        <circle fill="#fad161" transform="translate(9979 4951)" r="11" cy="11" cx="11" id="椭圆_99"></circle>
+      </g>
+    </g>
+    <g transform="translate(-6657.621 -4385.239)" id="组_180">
+      <g id="组_179">
+        <ellipse fill="#e24676" transform="matrix(0.998, 0.07, -0.07, 0.998, 7197.207, 4885.718)" ry="141.5" rx="138" cy="141.5" cx="138" id="椭圆_109"></ellipse>
+        <g clip-path="url(#clip-path)" id="蒙版组_21">
+          <path stroke-width="6" stroke="#f16ba6" fill="none" transform="translate(-24.209 36.833)" d="M7195,4960.967s113.608,33.9,296.967,7.967" id="路径_497"></path>
+          <path stroke-width="6" stroke="#f16ba6" fill="none" transform="translate(-24.209 -7.167)" d="M7195,4960.967s113.608,33.9,296.967,7.967" id="路径_502"></path>
+          <path stroke-width="6" stroke="#f16ba6" fill="none" transform="translate(-19.437 72.354)" d="M7195,4960.967s113.608,33.9,296.967,7.967" id="路径_498"></path>
+          <path stroke-width="6" stroke="#f16ba6" fill="none" transform="translate(-19.437 109.354)" d="M7195,4960.967s113.608,33.9,296.967,7.967" id="路径_499"></path>
+          <path stroke-width="6" stroke="#f16ba6" fill="none" transform="translate(-19.437 144.874)" d="M7195,4960.967s113.608,33.9,296.967,7.967" id="路径_500"></path>
+          <path stroke-width="6" stroke="#f16ba6" fill="none" transform="translate(-19.437 180.395)" d="M7195,4960.967s113.608,33.9,296.967,7.967" id="路径_501"></path>
+        </g>
+      </g>
+      <g id="组_178">
+        <path fill="#ffb3b8" d="M7192.735,4946.514s-27.14,8.185-29.294,9.262-19.6,7.323-21.11,22.833-7.108,113.087-7.108,113.087H7186.7l10.771-71.083,29.726-8.4Z" id="路径_475"></path>
+        <path fill="#ffb3b8" d="M7432.677,5014.878l19.055,4.308-13.752,89.806,56.667,3.479s26.346-90.634,28.5-98.753,12.924-35.956-5.137-46.892-42.915-15.906-42.915-15.906Z" id="路径_485"></path>
+        <g id="组_176">
+          <path fill="#fff" d="M7134.307,5086.323l53.354,2.154-3.48,54.514-17.4,8.119-27.836-8.948-6.3-13.255Z" id="路径_476"></path>
+          <path fill="#194ba3" transform="translate(7133 5098)" d="M.61.065,54.254,2.436l-.323,6L.233,5.8Z" id="路径_477"></path>
+          <path fill="#244e9f" d="M7125.228,5122.751c-2.422,2.167-17.462,17.844-28.806,25.492s-19.373,10.324-19.373,10.324,14.02,4.206,17.844,18.736c9.432-11.854,48.306-44.228,48.306-44.228S7135.552,5119.31,7125.228,5122.751Z" id="路径_478"></path>
+          <path fill="#1b2f5d" d="M7093.77,5177.992c-.1-.294-5.289-11.174-1.078-16.275s50.1-29.315,50.1-29.315,6.079-3.823,10.785,1.471,10.19,13.428,20.191,10.977,10.4-14.016,11.183-13.918,3.242,3.674,4.9,10.557,3.951,30.717,3.951,30.717l-2.8,7.137-90.877,1.147Z" id="路径_480"></path>
+          <path fill="#fff" d="M7078.184,5158.777c-1.958-.1-13.141-.2-16.965,7.351-3.722.983-9.216,8.824-3.824,15.687s36.962,8.823,41.08,8.726,83.533-.294,83.533-.294,12.354.2,12.354-6.863a84.817,84.817,0,0,0-.588-11.079s-4.019,5.588-15.294,5.1-83.627.3-83.627.3S7093.38,5166.327,7078.184,5158.777Z" id="路径_479"></path>
+          <path stroke-width="3" stroke-linecap="round" stroke="#fff" fill="none" d="M7087.681,5151.11s15.785,1.089,19.314,9.815" id="路径_481"></path>
+          <path stroke-width="3" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(7 -6.267)" d="M7087.681,5151.11s16.875,1.338,20.648,12.062" id="路径_482"></path>
+          <path stroke-width="3" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(15 -11.062)" d="M7087.681,5151.11s16.875,1.338,20.648,12.062" id="路径_483"></path>
+          <path stroke-width="3" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(23 -16.062)" d="M7087.681,5151.11s16.875,1.338,20.648,12.062" id="路径_484"></path>
+        </g>
+        <g id="组_177">
+          <path fill="#fff" d="M7440.522,5093.922l56.718,9.3-7.52,29.315-16.06,10.579-20.266,11.088-21.03.638V5139.3Z" id="路径_486"></path>
+          <path fill="#2151a2" d="M7473.536,5137.9s7.393-15.295,20.138-11.726c4.971,1.392,9.893,10.988,18.481,17.461,12.873,9.7,29.616,17.4,31.482,18.1,3.059,1.147-24.472,16.441-24.472,16.441l-7.01,10.579Z" id="路径_488"></path>
+          <path fill="#1f2d61" d="M7432.677,5133.183s-7.437,8.221-9.9,13.317-4.706,14.9-2.9,18.165c.556,1,7.581,5.841,18.386,9.483,23.516,7.926,62.039,17.283,62.039,17.283l10.324-5.1s8.54-17.972,2.8-24.089-31.1-23.324-35.688-26-8.157-6.373-16.824,1.4-9.81,11.013-18.608,9.687S7432.677,5133.183,7432.677,5133.183Z" id="路径_489"></path>
+          <path fill="#fff" d="M7419.222,5164.1c-1-.074-3.819,8.447-3.819,10.785s1.659,6.939,9.578,8.221,19.835,4,23.832,5.656,18.225,7.13,26.509,8.787,26.129,3.824,36.325,3.441,27.309-1.937,36.624-5.664,11.857-5.133,13.743-9.281a12.877,12.877,0,0,0-5.053-16.29c-7.089-4.45-12.444-7.693-14.028-7.693s-11.766-.15-19.156,6.034-12.594,17.572-12.972,17.949-19.548,2.629-35.483-2.94-20.65-6.844-31.1-10.03S7428.8,5169.888,7419.222,5164.1Z" id="路径_490"></path>
+          <path stroke-width="3" stroke-linecap="round" stroke="#fff" fill="none" d="M7507.472,5138.157s-14.119,1.177-21.962,12.158" id="路径_491"></path>
+          <path stroke-width="3" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(6.177 5.079)" d="M7508.3,5138.157s-14.648,1.254-22.785,12.961" id="路径_492"></path>
+          <path stroke-width="3" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(13.177 10.21)" d="M7508.3,5138.157s-14.648,1.254-22.785,12.961" id="路径_493"></path>
+          <path stroke-width="3" stroke-linecap="round" stroke="#fff" fill="none" transform="translate(21.177 15.21)" d="M7508.3,5138.157s-14.648,1.254-22.785,12.961" id="路径_494"></path>
+          <path fill="#2252a4" d="M7439.5,5099.913l55.912,10.107-1.373,5.294-55.559-9.793Z" id="路径_487"></path>
+        </g>
+        <path fill="#333" d="M7190.157,4944.828l88.978-32.145,141.18,11.125,71.886,28.041-58.248,71.886-95.335-37.98-112.177,35.126Z" id="路径_474"></path>
+        <path stroke-width="2" stroke="#fff" fill="none" d="M7221.194,5000.9l117.889-29.4,98.567,34.442" id="路径_495"></path>
+        <path stroke-width="2" stroke="#fff" fill="none" d="M7344.021,4944.783s-6.462,23.529-5.8,40.761" id="路径_496"></path>
+      </g>
+      <g id="组_171">
+        <path fill="#ffafb5" d="M7313.814,4774.061l1.1,16.3-15.083,5.279s6.034,12.357,10.849,13.691,17.811,3.6,25.758,0,17.637-8.122,19.667-13.691-3.075-16.012-3.075-16.012l-14.852,4.409-3.19-13.633Z" id="路径_468"></path>
+        <path fill="#ffb3b8" d="M7298.215,4739.947s.619,11.163.686,12.256c-.784-.392-6.314-3.1-7.647,1.863s6.8,10.161,9.053,7.219c.094-.019,4.64,14.637,18.6,15.527s22.747-3.921,27.061-21.766c1.232-.03,5.1-.737,6.175-3.188s1.133-11.843-7.842-6.518c.015-.039-.588-15.981-.588-15.981l-15.1-8.138-17.158-2.549s-10.883,4.707-10.883,5S7298.215,4739.947,7298.215,4739.947Z" id="路径_466"></path>
+        <path fill="#35211c" d="M7299.5,4752.267c-1.408-.485-5.411-5.068-6.687-13.538s.567-14.625,2.448-17.745,4.73-5.98,7.631-6.114,6.471.223,6.739,0,3.649-4.96,11.511-4.955,17.136,2.5,21.644,10.532,3.711,21.482,3.272,23.683-2.437,3.845-5.39-1.476-3.735-7.891-5.184-7.93-4.334,3.073-3.948,5.937-6.073-1.462-6.041-6.761c-.8-3.538-.154,5.867-4.2,5.867-1.03-1.1-1.361-5.708-3.185-6.176s.75,5.777-3.775,6.416c-.2-5.045-2.437-12.525-5.732-14.825s-3.378,10.3-1.986,13.141S7298.09,4741.107,7299.5,4752.267Z" id="路径_467"></path>
+      </g>
+      <g id="组_175">
+        <path fill="#0e8072" d="M7303.066,4792.916s13.03,15.288,29.953,11.088,18.991-18.481,18.991-23.707c.217-.157,87.436-26.766,87.436-26.766l1.912,69.464-27.531,12.108,8.433,90.257s-40.425,17.827-68.211,20.5-60.443-3.517-60.443-3.517l-33.515-21.87,19.552-46.395-55.342,1.491s9.113-40.761,9.776-43.081,2.651-14.747,23.694-23.529S7303.066,4792.916,7303.066,4792.916Z" id="路径_469"></path>
+        <path fill="#ffb3b8" d="M7226.627,4875.414s-13.256,59.65-13.587,61.473-5.336,18.811,1.678,26.579,15.688,13.047,25.793,11.388,24.226-11.29,30.522-15.433,57.827-39.436,57.827-39.436l-28.168-23.363-8.634-2.83-21.025,11.446,8.671-31.055Z" id="路径_470"></path>
+        <path fill="#ffb3b8" d="M7439.533,4757.18s15.143-4.815,17.057-5.4,18.913-5.233,27.284.65,13.048,11.539,14.556,18.478,1.282,25.492,0,38.615-12.208,106.13-12.718,109.827-.765,22.942-8.412,24.6-16.059.765-21.413,4.588-6.144,14.465-6.84,15.568-4.874,6.158-10.327,2.387c-.761-.155-4.881,3.38-10.442-.581-.343.562-5.976,3.133-9.34-1.508-2.468,1.315-7.89-.406-8.934-4.525s.649-14.15,1.566-18.333,2.566-11.053,5.859-14.33,7.136-7.078,14.388-8.528,13.575-2.146,13.575-2.146l4.873-108.081-9.158,4.566Z" id="路径_471"></path>
+        <path stroke-width="1" stroke="#69363a" fill="none" d="M7271.2,4905.333l-26.766,14.53" id="路径_472"></path>
+        <path stroke-width="1" stroke="#2e5878" fill="none" d="M7413.827,4834.977l-20.011-12.873" id="路径_473"></path>
+        <g id="组_174">
+          <g transform="translate(9 7)" id="组_172">
+            <circle fill="#f6d56a" transform="translate(7277 4816)" r="61" cy="61" cx="61" id="椭圆_105"></circle>
+            <circle fill="#1f50a1" transform="translate(7282 4821)" r="56" cy="56" cx="56" id="椭圆_106"></circle>
+            <circle fill="#1e2a5d" transform="translate(7314 4853)" r="24" cy="24" cx="24" id="椭圆_107"></circle>
+            <circle fill="#fff" transform="translate(7325 4864)" r="13" cy="13" cx="13" id="椭圆_108"></circle>
+          </g>
+          <g transform="translate(2)" id="组_173">
+            <circle fill="#f6d56a" transform="translate(7277 4816)" r="61" cy="61" cx="61" id="椭圆_105-2"></circle>
+            <circle fill="#1f50a1" transform="translate(7282 4821)" r="56" cy="56" cx="56" id="椭圆_106-2"></circle>
+            <circle fill="#1e2a5d" transform="translate(7314 4853)" r="24" cy="24" cx="24" id="椭圆_107-2"></circle>
+            <circle fill="#fff" transform="translate(7325 4864)" r="13" cy="13" cx="13" id="椭圆_108-2"></circle>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(-8171.765 -4136.463)" id="组_170">
+      <g transform="translate(8520.03 4427.023)" id="组_159">
+        <rect fill="#f5b2b2" transform="translate(22.107 109.192)" height="24.116" width="20.097" id="矩形_121"></rect>
+        <circle fill="#fbc1c1" transform="translate(0 58.95)" r="27.131" cy="27.131" cx="27.131" id="椭圆_100"></circle>
+        <path fill="#373037" transform="translate(3.255 0)" d="M35.822,102.921A33.11,33.11,0,0,1,32.384,95a10.6,10.6,0,0,0,2.53-3.967A4.051,4.051,0,0,0,34.77,87.6c-1.016-1.68-3.124-3.641-5.725-3.641a5.582,5.582,0,0,0-3.254,1.1A41.2,41.2,0,0,1,8.616,80.5a20.429,20.429,0,0,1-7.77-6.938C0,72.117-.064,71.187.035,70.985a26.354,26.354,0,0,1,9.7-9.309,28.723,28.723,0,0,1,14.141-3.73,28,28,0,0,1,12.808,3.069c-.513-2.831-.7-6.569,1.049-9.141,3.16-4.656,11.473-1.662,13.468-6.651S48.375,19.952,55.356,13.3,68.99,0,81.293,0s18.623,3.493,21.283,13.3S95.26,34.25,88.776,37.077s8.812,18.288-6.651,26.27c-11.717,6.047-27.252,7.8-34.091,8.292A27.961,27.961,0,0,1,52.01,86.08a27.566,27.566,0,0,1-2.473,11.478,29.861,29.861,0,0,1-6.964,9.545,2.176,2.176,0,0,1-1.5.68C39.606,107.783,37.692,106.011,35.822,102.921Z" id="联合_17"></path>
+      </g>
+      <g transform="translate(8419.511 4664.835)" id="组_169">
+        <g transform="translate(92.826 62.493)" id="组_168">
+          <path fill="#f1acac" transform="translate(-8078.172 -4588.096)" d="M8078.172,4608.175s30.427,97.493,33.244,102.872,8.966,29.712,34.58,32.275,109.631,16.649,109.631,16.649l9.222-39.959s-94.52-32.787-97.081-33.3-5.122-1.025-5.634-7.428-12.552-91.189-12.552-91.189Z" id="路径_465"></path>
+          <g transform="matrix(0.208, -0.978, 0.978, 0.208, 149.368, 235.093)" id="组_167">
+            <path fill="#0e8072" transform="translate(64.323 0)" d="M0,0H47.94L43.511,66.614,2.5,65.844Z" id="路径_462"></path>
+            <g stroke-width="1" stroke="#f8b953" fill="none" transform="translate(64.346 5.386)" id="矩形_124">
+              <rect stroke="none" height="4.019" width="48.232"></rect>
+              <rect fill="none" height="3.019" width="47.232" y="0.5" x="0.5"></rect>
+            </g>
+            <g stroke-width="1" stroke="#f8b953" fill="none" transform="translate(64.346 11.415)" id="矩形_125">
+              <rect stroke="none" height="4.019" width="48.232"></rect>
+              <rect fill="none" height="3.019" width="47.232" y="0.5" x="0.5"></rect>
+            </g>
+            <path fill="#1b1b1b" transform="translate(0 59.099)" d="M64.346,0h46.649l-1.63,31.84-3.405,2.223H.663S-2.448,26.657,4.809,23.7,64.346,0,64.346,0Z" id="路径_463"></path>
+            <g clip-path="url(#clip-path-2)" transform="translate(0 59.099)" id="蒙版组_20">
+              <rect fill="#fff" transform="translate(0.036 26.674)" height="4.019" width="112.542" id="矩形_126"></rect>
+              <rect fill="#fff" transform="translate(49.273 3.563) rotate(90)" height="4.019" width="14.068" id="矩形_127"></rect>
+              <rect fill="#fff" transform="translate(55.302 1.553) rotate(90)" height="4.019" width="14.068" id="矩形_128"></rect>
+              <rect fill="#fff" transform="translate(61.332 -0.456) rotate(90)" height="4.019" width="14.068" id="矩形_129"></rect>
+              <g stroke-width="1" stroke="#fff" fill="none" transform="translate(104.335 1.193) rotate(7)" id="椭圆_104">
+                <ellipse stroke="none" ry="13.11" rx="12.058" cy="13.11" cx="12.058"></ellipse>
+                <ellipse fill="none" ry="12.61" rx="11.558" cy="13.11" cx="12.058"></ellipse>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g transform="translate(0 66.403)" id="组_166">
+          <path fill="#fbc0c0" transform="translate(-8000.922 -4590.042)" d="M8105.5,4602.08s-36.115,72.558-37.417,77.113-6.183,11.713-5.207,29.283,5.207,101.84,5.207,101.84h43.6s4.882-71.907,6.183-82.318,7.345-22.652,13.341-31.561,60.518-106.4,60.518-106.4Z" id="路径_461"></path>
+          <path fill="#0e8072" transform="translate(-7999.664 -4481.725)" d="M8063.989,4697.32h47.939l-4.429,66.614-41.008-.771Z" id="路径_462-2"></path>
+          <g stroke-width="1" stroke="#f8b953" fill="none" transform="translate(64.346 220.982)" id="矩形_124-2">
+            <rect stroke="none" height="4.019" width="48.232"></rect>
+            <rect fill="none" height="3.019" width="47.232" y="0.5" x="0.5"></rect>
+          </g>
+          <g stroke-width="1" stroke="#f8b953" fill="none" transform="translate(64.346 227.011)" id="矩形_125-2">
+            <rect stroke="none" height="4.019" width="48.232"></rect>
+            <rect fill="none" height="3.019" width="47.232" y="0.5" x="0.5"></rect>
+          </g>
+          <path fill="#1b1b1b" transform="translate(-8031.982 -4452.032)" d="M8096.328,4726.727h46.648l-1.63,31.84-3.405,2.223h-105.3s-3.111-7.406,4.146-10.368S8096.328,4726.727,8096.328,4726.727Z" id="路径_463-2"></path>
+          <g clip-path="url(#clip-path-3)" transform="translate(0 274.695)" id="蒙版组_20-2">
+            <rect fill="#fff" transform="translate(0.036 26.674)" height="4.019" width="112.542" id="矩形_126-2"></rect>
+            <rect fill="#fff" transform="translate(49.274 3.563) rotate(90)" height="4.019" width="14.068" id="矩形_127-2"></rect>
+            <rect fill="#fff" transform="translate(55.303 1.553) rotate(90)" height="4.019" width="14.068" id="矩形_128-2"></rect>
+            <rect fill="#fff" transform="translate(61.332 -0.456) rotate(90)" height="4.019" width="14.068" id="矩形_129-2"></rect>
+            <g stroke-width="1" stroke="#fff" fill="none" transform="translate(104.335 1.193) rotate(7)" id="椭圆_104-2">
+              <ellipse stroke="none" ry="13.11" rx="12.058" cy="13.11" cx="12.058"></ellipse>
+              <ellipse fill="none" ry="12.61" rx="11.558" cy="13.11" cx="12.058"></ellipse>
+            </g>
+          </g>
+        </g>
+        <path fill="#1b1b1b" transform="translate(-7990.072 -4554.374)" d="M8073.49,4559.6v80.471h17.457l25.272-38.74,2.66-41.731Z" id="路径_452"></path>
+        <path fill="#313131" transform="translate(-7985.346 -4556.637)" d="M8098.506,4561.864l-20.334,77.346,103.849-2.685-5.884-79.166Z" id="路径_453"></path>
+        <rect fill="#fff" transform="translate(146.743)" height="80.387" width="4.019" id="矩形_122"></rect>
+        <rect fill="#fff" transform="translate(152.772)" height="80.387" width="4.019" id="矩形_123"></rect>
+      </g>
+      <g transform="translate(8217.427 4402.429)" id="组_160">
+        <g transform="translate(0 0)" id="组_161">
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(-7929.997 -4406.241)" d="M7932.844,4446.423l64.426,64.427" id="路径_432"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(-7927.987 -4417.701)" d="M7932.843,4446.422l78.295,75.888" id="路径_434"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(-7921.958 -4427.75)" d="M7932.843,4446.423l82.74,79.868" id="路径_435"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(-7913.919 -4436.126)" d="M7932.843,4446.423l82.74,79.868" id="路径_436"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(-7907.6 -4441.838)" d="M7932.843,4446.423l80.04,78.008" id="路径_437"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(-7897.783 -4444.813)" d="M7932.843,4446.423l71.573,68.776" id="路径_438"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(-7886.436 -4444.813)" d="M7932.843,4446.423l60.227,58.728" id="路径_439"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(42.828 1.61) rotate(90)" d="M0,0,38.572,41.991" id="路径_440"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(55.104 3.119) rotate(90)" d="M0,0,49.121,54.267" id="路径_441"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(67.273 5.931) rotate(90)" d="M0,0,56.8,62.418" id="路径_442"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(77.495 12.07) rotate(90)" d="M0,0,60.711,66.984" id="路径_443"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(85.533 19.874) rotate(90)" d="M0,0,60.711,66.984" id="路径_444"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(93.572 28.72) rotate(90)" d="M0,0,60.711,66.984" id="路径_445"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(98.586 38.543) rotate(90)" d="M0,0,58.476,64.807" id="路径_446"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(102.423 47.624) rotate(90)" d="M0,0,54.441,59.6" id="路径_447"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(105.285 55.425) rotate(90)" d="M0,0,49.182,51.933" id="路径_448"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(107.54 66.042) rotate(90)" d="M0,0,40.575,42.275" id="路径_449"></path>
+          <path stroke-width="1" stroke="#fff" fill="none" transform="translate(-7932.006 -4396.192)" d="M7932.843,4446.423l59.456,57.287" id="路径_433"></path>
+          <path fill="#1a1a1a" transform="translate(0 0)" d="M164.737,183.9c-1.329-1.355-32.683-33.338-44.957-46.035-12.417-12.845-41.257-25.141-52.505-28.778a59,59,0,0,0,5.85-1.652,49.5,49.5,0,0,1-8.051.646h0c-16.014,0-32.465-7.266-45.133-19.934A70.727,70.727,0,0,1,6.272,69.084,61.281,61.281,0,0,1,.278,48.41a48.861,48.861,0,0,1,1.888-19.8A40.066,40.066,0,0,1,26.2,3.008,46.659,46.659,0,0,1,43.012,0C59.028,0,75.479,7.266,88.147,19.932a70.694,70.694,0,0,1,13.667,19.06,61.289,61.289,0,0,1,5.992,20.674A51.242,51.242,0,0,1,107.55,72.4c1.35,4.845,7.02,24.581,13.958,39.958,7.908,17.53,23.616,38.694,23.776,38.905L174.9,180.01,164.739,183.9v0Zm-61.012-63.012c3.809,2.094,6.562,3.607,6.893,3.865a12.437,12.437,0,0,0,5.688,1.346c1.962,0,4.345-.566,4.543-3.265.232-3.174-4.191-10.337-8.092-16.656-2.567-4.158-4.992-8.087-5.849-10.458a81.78,81.78,0,0,1-3.049-11,39.942,39.942,0,0,1-21.98,20.348q-1.652.635-3.364,1.137C81.9,108.883,95.383,116.3,103.725,120.885ZM14.963,14.96C-2.276,32.2,1.231,63.754,22.778,85.3c11.943,11.943,27.353,18.793,42.279,18.793,11.181,0,20.885-3.8,28.064-10.975,8.369-8.369,12.144-20.326,10.632-33.669-1.5-13.258-8.054-26.282-18.447-36.673C73.364,10.834,57.956,3.985,43.03,3.985l.926.617-1.928.385,1-1C31.847,3.985,22.141,7.781,14.963,14.96Z" id="联合_18"></path>
+        </g>
+        <path fill="#f1acac" transform="translate(-7864.59 -4351.8)" d="M8003.975,4507.554s4.489-6.318,7.647-6.65,7.981-1.663,11.307,1.5,72.157,26.935,75.315,26.935,5.654.666,8.314-.831,26.6-13.3,26.6-13.3l17.957,27.932-35.082,18.621-80.3-29.262-20.117-22.112s2.985,14.019,1.451,15.682-12.15.256-12.15.256-7.419-9.622-7.291-15.938S8003.975,4507.554,8003.975,4507.554Z" id="路径_424"></path>
+        <path fill="#0e8072" transform="translate(-7798.589 -4350.754)" d="M8062.989,4515.313l20.285,30.259,6.15-2.66-6.15,75.816s64.675,1,77.478,0,31.091-4.157,31.091-4.157-7.316-36.079-8.646-54.2,0-43.894-8.812-52.206-68.167-6.652-68.167-6.652-13.3-.166-23.942,4.157A146.342,146.342,0,0,0,8062.989,4515.313Z" id="路径_425"></path>
+        <path fill="#fbc0c0" transform="translate(-7854.529 -4337.989)" d="M8023.967,4518.495l-9.977-.768s-8.823,0-5.754,7.162,5.882,13.174,11.51,15.22,13.174-1.407,17.267,0,104.7,43.01,107.555,44.289,15.06,5.614,24.3-1.376,49.5-43.806,49.5-43.806l-27.624-25.195s-35.171,30.183-35.937,30.822-3.966,4.6-12.407,2.175S8023.967,4518.495,8023.967,4518.495Z" id="路径_426"></path>
+        <path fill="#11232f" transform="translate(-7761.979 -4340.143)" d="M8099.25,4514.444l2.853-2.558,28.727,26.268-2.361,1.967Z" id="路径_427"></path>
+        <path stroke-width="1" stroke="#11232f" fill="none" transform="translate(-7796.946 -4344.605)" d="M8064.617,4507.467l20.335,30.694" id="路径_428"></path>
+        <path stroke-width="1" stroke="#0b7063" fill="none" transform="translate(-7785.695 -4335.606)" d="M8089.7,4516.38c-.511,0-9.081,9.593-13.94,11" id="路径_429"></path>
+        <path stroke-width="1" stroke="#0b7063" fill="none" transform="translate(-7761.985 -4345.951)" d="M8116,4506.134l-16.754,14.581" id="路径_430"></path>
+        <path stroke-width="1" stroke="#0b7063" fill="none" transform="translate(-7746.82 -4334.064)" d="M8114.261,4532.743s9.337-8.057,13.046-14.835" id="路径_431"></path>
+      </g>
+    </g>
+  </g>
+</svg>

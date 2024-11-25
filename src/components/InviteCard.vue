@@ -40,11 +40,7 @@
 
     <div class="relative">
       <!-- 步骤指示器 -->
-      <StepIndicator
-        :current-step="currentStep"
-        :steps="steps"
-        class="absolute -top-7 left-0 right-0 z-30"
-      />
+      <StepIndicator :current-step="currentStep" class="absolute -top-7 left-0 right-0 z-30" />
 
       <!-- 卡片本体 -->
       <el-card :body-style="{ padding: 0 }" class="rounded-[24px] shadow-md overflow-hidden">
@@ -74,10 +70,13 @@ const currentStep = ref(0)
 const steps = [StepOne, StepTwo, StepThree]
 const animationDirection = ref('next')
 
+const emit = defineEmits(['step-change'])
+
 const nextStep = () => {
   if (currentStep.value < steps.length - 1) {
     animationDirection.value = 'next'
     currentStep.value++
+    emit('step-change', currentStep.value)
   }
 }
 
@@ -85,6 +84,7 @@ const prevStep = () => {
   if (currentStep.value > 0) {
     animationDirection.value = 'prev'
     currentStep.value--
+    emit('step-change', currentStep.value)
   }
 }
 </script>

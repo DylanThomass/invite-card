@@ -16,6 +16,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.1",
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "element-plus": "^2.8.8",
+    "motion": "^11.11.17",
     "pinia": "^2.2.6",
     "three": "^0.170.0",
     "vue": "^3.5.12",
